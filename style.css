@@ -322,13 +322,13 @@ img{
 }
 
 @media (min-width: 1173px) and (max-width: 1199px){
-    .last{
+    .last.one{
         display: inline;
     }
 }
 
 @media (min-width: 1321px) and (max-width: 1743px){
-    .last{
+    .last.one{
         display: inline;
     }
 }
@@ -337,7 +337,20 @@ img{
     .wide{
         display: inline;
     }
-    .last.two{
-        display:inline;
+}
+
+@media (min-width: 2167px) and (max-width: 2589px){
+    .wide{
+        display: inline;
     }
+    .last.two{
+        display: inline;
+    }
+}
+
+@media(min-width: 2589px) and (max-width: 3012px){
+    .last.one{
+        display: inline;
+    }
+
 }
